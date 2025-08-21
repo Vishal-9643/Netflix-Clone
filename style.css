@@ -372,3 +372,13 @@ nav img {
 .getstarted-btn2:hover {
   background-color: #e50914;
 }
+
+@media (max-width: 768px) {
+  .trending h2,
+  .More h2,
+  .Question h2 {
+    margin-left: 0;
+    text-align: left;
+    padding-left: 20px; 
+  }
+}
